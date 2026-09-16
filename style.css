@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;;
+}
+.cabecalho {
+    color: white;
+    background-color: #5A3B5A;
+    justify-content: space-between;
+    display: flex;
+    height: 70px;
+    align-items: center;
+}
+a {
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+a:hover {
+    color: #645878;
+    font-size: 18px;
+}
+.links {
+    display: flex;
+    margin-right: 25px;
+    gap: 20px;
+    font-size: 17px;
+}
+.cabecalho h2 {
+    margin-left: 25px;
+    font-size: 30px;
+    font-family: "Limelight", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+.banner {
+    gap: 45px;
+    align-items: center;
+    display: flex;
+    height: 35vh;
+    background: linear-gradient(to right, white, rgb(129, 129, 129)) ;
+}
+.banner img {
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.75);
+    border-radius: 50%;
+    margin-left: 30px;
+    width: 200px;
+    height: 200px;
+}
+.banner h4 {
+    margin-bottom: 12px;
+}
+.roxo {
+    margin-top: 12px;
+    color: #645878;
+}
+.apresentacao {
+    color: black
+}
+.apresentacao h2 {
+    font-family: "Limelight", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+}
+.catalogo {
+    background-color: #645878;
+    text-align: center;
+    justify-content: center;
+    height: 37vh;
+}
+.catalogo h2 {
+    padding-bottom: 5px;
+    color: white;
+    font-family: "Commissioner", sans-serif;
+    font-size: 30px;
+}
+#futuro {
+    margin-top: 12px;
+}
+.projetos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.produto {
+    background-color: #5A3B5A;
+    font-family: "Commissioner", sans-serif;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid 0px black;
+    width: 220px;
+}
+.produto img {
+    border-radius: 10px;
+    width: 200px ;
+    height: 150px;
+}
+footer {
+    background: linear-gradient(to top, white, rgb(129, 129, 129));
+    padding-top: 50px;
+}
+.footer {
+    font-family: "Commissioner", sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+.footer h2 {
+    font-size: 17px;
+}
+.footer p {
+    font-size: 12px;
+}
+.findme {
+    justify-content: space-around;
+    font-size: 20px;
+}
+.meencontre {
+    color: black;
+}
+.meencontre:hover {
+    font-size: 23px;
+}
+.formulario {
+    color: black;
+}
