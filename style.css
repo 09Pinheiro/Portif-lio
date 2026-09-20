@@ -4,7 +4,7 @@
 }
 .cabecalho {
     color: white;
-    background-color: #5A3B5A;
+    background-color: #1D402D;
     justify-content: space-between;
     display: flex;
     height: 70px;
@@ -16,7 +16,7 @@ a {
     transition: 0.5s;
 }
 a:hover {
-    color: #645878;
+    color: #E4A030;
     font-size: 18px;
 }
 .links {
@@ -37,7 +37,7 @@ a:hover {
     align-items: center;
     display: flex;
     height: 35vh;
-    background: linear-gradient(to right, white, rgb(129, 129, 129)) ;
+    background-color: #FFF9EC;
 }
 .banner img {
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.75);
@@ -51,7 +51,7 @@ a:hover {
 }
 .roxo {
     margin-top: 12px;
-    color: #645878;
+    color: #A85527;
 }
 .apresentacao {
     color: black
@@ -63,7 +63,7 @@ a:hover {
     font-size: 40px;
 }
 .catalogo {
-    background-color: #645878;
+    background-color: #1D402D;
     text-align: center;
     justify-content: center;
     height: 37vh;
@@ -82,8 +82,8 @@ a:hover {
     flex-direction: row;
     justify-content: space-around;
 }
-.produto {
-    background-color: #5A3B5A;
+.produto1 {
+    background-color: #224b36;
     font-family: "Commissioner", sans-serif;
     border-radius: 10px;
     padding: 10px;
@@ -91,16 +91,47 @@ a:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: solid 0px black;
-    width: 220px;
+    width: 310px;
 }
-.produto img {
+.produto1 img {
     border-radius: 10px;
-    width: 200px ;
-    height: 150px;
+    width: 300px;
+    height: 200px;
+}
+.produto2 {
+    background-color: #224b36;
+    font-family: "Commissioner", sans-serif;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 310px;
+}
+.produto2 img {
+    border-radius: 10px;
+    width: 300px ;
+    height: 200px;
+}
+.produto3 {
+    background-color: #224b36;
+    font-family: "Commissioner", sans-serif;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 310px;
+}
+.produto3 img {
+    border-radius: 10px;
+    width: 300px ;
+    height: 200px;
 }
 footer {
-    background: linear-gradient(to top, white, rgb(129, 129, 129));
+    background-color: #FFF9EC;
     padding-top: 50px;
 }
 .footer {
@@ -124,6 +155,6 @@ footer {
 .meencontre:hover {
     font-size: 23px;
 }
-.formulario {
+.atividade {
     color: black;
 }
